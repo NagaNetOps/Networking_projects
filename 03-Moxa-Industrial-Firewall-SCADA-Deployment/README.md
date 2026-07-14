@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the deployment of a **Moxa Industrial Firewall** to secure communication between the **DMZ network** and an **Industrial SCADA network**. A **Sophos Firewall** protects the enterprise network and connects to the Moxa Industrial Firewall through the **DMZ zone**. The Moxa firewall isolates the Operational Technology (OT) environment and provides secure access to industrial devices connected through an **Moxa O-Ring Industrial Ethernet Switch**.
+This project demonstrates the deployment of a **Moxa Industrial Firewall** to secure communication between the **DMZ network** and an **Industrial SCADA network**. A **Sophos Firewall** protects the enterprise network and connects to the Moxa Industrial Firewall through the **DMZ zone**. The Moxa firewall isolates the Operational Technology (OT) environment and provides secure access to industrial devices connected through an **Ethernet Switch**.
 
 This architecture follows industrial cybersecurity best practices by separating the IT and OT networks while allowing only authorized communication between them.
 
@@ -38,7 +38,7 @@ This architecture follows industrial cybersecurity best practices by separating 
 * Deploy a Moxa Industrial Firewall to protect the SCADA network.
 * Connect the Sophos Firewall DMZ zone to the Moxa Firewall.
 * Secure communication between IT and OT environments.
-* Connect industrial devices through the Moxa O-Ring Switch.
+* Connect industrial devices through the Managed Switch.
 * Restrict network access using firewall policies.
 * Enable secure communication for SCADA systems.
 
@@ -48,7 +48,7 @@ This architecture follows industrial cybersecurity best practices by separating 
 
 * Moxa Industrial Firewall
 * Sophos Firewall
-* Moxa O-Ring Industrial Switch
+* Industrial Switch
 * SCADA Network
 * Industrial Ethernet
 * DMZ Architecture
@@ -120,7 +120,6 @@ The deployment was validated by performing the following tests:
 * SCADA Network Security
 * Industrial Network Segmentation
 * DMZ Architecture
-* Switch Network Design
 * Static Routing
 * Firewall Policy Configuration
 * OT Network Security
