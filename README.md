@@ -24,19 +24,20 @@ The network consists of a dedicated Layer 3 Core Switch connected to multiple ac
               |            Core Switch               |
               +---------┬------------┬---------------+
                         │            │
-                   Po11 │       Po12 │       Po13
+                   Po11 │       Po12 │        Po13
                         │            │
-        +---------------+--------+---+----------------+
-        │                        │                    │
-+------------------+   +------------------+   +------------------+
-|  Access Stack 1  |   |  Access Switch 2 |   |  Access Switch 3 |
-| 3 × C9300L-48P   |   | C9300L-48P-4X-E  |   | C9300L-48P-4X-E  |
-+------------------+   +------------------+   +------------------+
-        │                     │                     │
-        └───────────────┬─────┴─────────────────────┘
+        +---------------+------------+---------------+
+        │                            │               │
++------------------+        +------------------+  +------------------+
+|  Access Stack 1  |        |  Access Switch 2 |  |  Access Switch 3 |
+| 3 × C9300L-48P   |        | C9300L-48P-4X-E  |  | C9300L-48P-4X-E  |
++------------------+        +------------------+  +------------------+
+        │                            │               │
+        └───────────────┬────────────┴───────────────┘
                         │
    Users • Servers • IP Phones • Printers • Wireless APs
-3. Device Inventory
+
+   3. Device Inventory
 Device Role	Model	Quantity	Description
 Firewall	FortiGate 201G	1	Enterprise Next-Generation Firewall
 Core Switch	Cisco Catalyst C9300X-24Y-A	1	Layer 3 Core Switch with 25G Uplink Ports
@@ -102,6 +103,7 @@ Security Policies
 Network Address Translation (NAT)
 Internet Access Control
 Security Hardening
+
 5. Technologies Implemented
 Cisco Technologies
 Cisco Catalyst 9300X Series
@@ -123,6 +125,7 @@ Firewall Policies
 Static Routing
 NAT
 Security Policy Configuration
+
 6. Project Highlights
 Enterprise Campus Network Design
 Secure Layer 2 and Layer 3 Architecture
@@ -134,6 +137,7 @@ Best Practice Security Configuration
 Modular Network Design
 Simplified Network Management
 Future Expansion Ready
+
 7. Skills Demonstrated
 Enterprise Network Design
 Cisco Switching
@@ -149,6 +153,7 @@ Network Hardening
 Infrastructure Deployment
 Network Documentation
 Enterprise Network Troubleshooting
+
 8. Conclusion
 
 This project demonstrates the successful deployment of a secure and scalable enterprise campus network using Cisco Catalyst 9300 Series switches and a FortiGate 201G firewall. The implementation incorporates enterprise-grade switching, Layer 3 routing, network segmentation, and security best practices, resulting in a reliable infrastructure capable of supporting current business operations while allowing for future growth.
