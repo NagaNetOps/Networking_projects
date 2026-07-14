@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project involved the deployment and configuration of an enterprise campus network infrastructure for **Zamil Steel Industries Co., Ltd.** using **Cisco Catalyst 9300 Series** switches and a **FortiGate 201G Next-Generation Firewall**.
+This project involved the deployment and configuration of an enterprise campus network infrastructure for **XYZ Co., Ltd.** using **Cisco Catalyst 9300 Series** switches and a **FortiGate 201G Next-Generation Firewall**.
 
 The solution was designed to provide a secure, scalable, and high-performance network supporting user connectivity, server communication, and Internet access while following Cisco enterprise design best practices.
 
