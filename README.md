@@ -55,7 +55,7 @@ The network consists of a dedicated Layer 3 Core Switch connected to multiple ac
 | Access Switch | Cisco Catalyst C9300L-48P-4X-E | 1 | Standalone Access Switch |
 | Access Switch | Cisco Catalyst C9300L-48P-4X-E | 1 | Standalone Access Switch |
 
-**Total Network Devices:** **6**
+**Total Network Devices:** **7**
 
 ---
 
