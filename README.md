@@ -15,33 +15,32 @@ The network consists of a dedicated Layer 3 Core Switch connected to multiple ac
 ### Network Topology
 
 ```text
-                          Internet
-                              │
-                             ISP
-                              │
-                   +----------------------+
-                   |    FortiGate 201G    |
-                   +----------┬-----------+
-                              │
-                      Transit Gateway
-                              │
-          +----------------------------------+
-          | Cisco Catalyst C9300X-24Y-A      |
-          |         Core Switch              |
-          +--------┬----------┬--------------+
-                   │          │
-              Po11 │     Po12 │     Po13
-                   │          │
-   +---------------+----------+---------------+
-   │                          │               │
-+--------------+      +--------------+  +--------------+
-| Access Stack |      | Access SW 2  |  | Access SW 3  |
-| 3×C9300L     |      | C9300L-48P   |  | C9300L-48P   |
-+--------------+      +--------------+  +--------------+
-       │                     │                 │
-       └──────────────┬──────┴─────────────────┘
-                      │
- Users • Servers • IP Phones • Printers • Wireless APs
+                      Internet
+                         │
+                        ISP
+                         │
+                +----------------+
+                | FortiGate 201G |
+                +--------┬-------+
+                         │
+                  Transit Gateway
+                         │
+   +-------------------------------------------+
+   |         Cisco Catalyst C9300X-24Y-A        |
+   |                 Core Switch                |
+   +---┬-----------------┬-----------------┬----+
+       │                 │                 │
+   Po11│             Po12│             Po13│
+       │                 │                 │
+       ▼                 ▼                 ▼
++--------------+  +--------------+  +--------------+
+| Access Stack |  | Access SW 2  |  | Access SW 3  |
+| 3×C9300L-48P |  |  C9300L-48P  |  |  C9300L-48P  |
++--------------+  +--------------+  +--------------+
+       │                  │                 │
+       └──────────────────┼─────────────────┘
+                           │
+  Users • Servers • IP Phones • Printers • Wireless APs
 ```
 
 ---
